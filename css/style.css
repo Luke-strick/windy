@@ -305,6 +305,15 @@ img {
   margin-bottom: 1rem;
 }
 
+.about-photo {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
 /* ---------- Past work / project cards ---------- */
 
 .projects-grid {
